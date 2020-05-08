@@ -22,3 +22,8 @@ set wildmenu
 " Highlight search results
 set hlsearch
 
+" Set system clipboard
+set clipboard=unnamedplus
+inoremap <C-S-v> <ESC>"+pa
+vnoremap <C-S-c> "+y
+vnoremap <C-S-d> "+d
