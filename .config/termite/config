@@ -16,7 +16,7 @@ font = Monospace 11
 # and setting it to a negative value means "infinite scrollback"
 scrollback_lines = 10000
 #search_wrap = true
-#urgent_on_bell = true
+urgent_on_bell = false
 #hyperlinks = false
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
