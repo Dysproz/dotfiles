@@ -13,7 +13,6 @@ Plug 'vim-syntastic/syntastic'
 Plug 'nvie/vim-flake8'
 " Plugins for color schemes
 Plug 'jnurmine/Zenburn'
-Plug 'altercation/vim-colors-solarized'
 " Plugin for file tree
 Plug 'scrooloose/nerdtree'
 " Plugin for super search
@@ -29,18 +28,11 @@ let python_highlight_all=1
 syntax on
 
 " configure colors
-if has('gui_running')
-  set background=dark
-  colorscheme solarized
-else
-  colorscheme zenburn
-endif
+set background=dark
+colorscheme zenburn
 
 " Bind key to show NERDtree
 map <C-n> :NERDTreeToggle<CR>
-
-" Set dark backgraoud to match terminal
-set background=dark
 
 " Case insensitive search, except for search with capital letters
 set ignorecase
