@@ -1,4 +1,5 @@
+cmake
 gvim
+termite
 tmux
 xsel
-termite

@@ -1,5 +1,6 @@
 " Set leader to space
 let mapleader=" "
+set encoding=utf-8
 
 " Install plugins
 call plug#begin('~/.vim/plugged')
