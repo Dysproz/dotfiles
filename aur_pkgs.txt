@@ -1,0 +1,5 @@
+brave
+signal-desktop-beta-bin
+code-git
+davinci-resolve
+telegram-desktop
