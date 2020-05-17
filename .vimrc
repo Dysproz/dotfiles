@@ -84,3 +84,5 @@ highlight ExtraWhitespace ctermbg=darkred guibg=darkred
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+" Set transparent background
+hi Normal guibg=NONE ctermbg=NONE
