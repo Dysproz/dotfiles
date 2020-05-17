@@ -3,3 +3,5 @@ gvim
 termite
 tmux
 xsel
+feh
+upower

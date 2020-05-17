@@ -1,0 +1,37 @@
+[global]
+# Follow desktop with mouse to show notifications
+follow = mouse
+# Set geometry of notifications
+geometry = "300x5-30+20"
+# Show how many notifications are hidden
+indicate_hidden = yes
+# Don't shrink notification if it's smaller
+shrink = no
+# Set padding
+padding = 5
+horizontal_padding = 5
+# Set no frame width
+frame_width = 0
+# Sort messages by urgency
+sort = yes
+# Set format of notification
+format = "<b>%s</b> (%a)\n%b"
+# Align right
+alignment = right
+# Add dots at the end of long notification
+word_wrap = no
+ellipsize = end
+
+# Set max notifications
+history_length = 20
+
+# Set browser open url
+show_indicators = yes
+browser = /usr/bin/firefox -new-tab
+
+# turn off startup notifications
+startup_notification = false
+
+# Set rounded corners
+corner_radius = 5
+

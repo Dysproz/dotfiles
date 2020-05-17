@@ -1,2 +1,4 @@
-NetworkManager.service
-bluetooth.service
+systemctl enable NetworkManager.service
+systemctl enable bluetooth.service
+systemctl --user enable pulseaudio
+

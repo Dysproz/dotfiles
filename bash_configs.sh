@@ -68,3 +68,5 @@ extract () {
     done
 }
 
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa 2> /dev/null
