@@ -51,4 +51,11 @@ cbatticon
 nfs-utils
 dosfstools
 ntfs-3g
-
+wavpack
+flac
+lame
+libwebp
+jasper
+gimp
+inkscape
+vlc

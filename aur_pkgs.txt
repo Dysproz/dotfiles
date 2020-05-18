@@ -6,4 +6,4 @@ telegram-desktop
 batify
 mictray
 pa-applet-git
-
+alac-git
