@@ -3,6 +3,7 @@ signal-desktop-beta-bin
 code-git
 davinci-resolve
 telegram-desktop
+bitwarden
 batify
 mictray
 pa-applet-git
