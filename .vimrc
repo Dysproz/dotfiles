@@ -33,7 +33,7 @@ set background=dark
 colorscheme zenburn
 
 " Bind key to show NERDtree
-map <C-n> :NERDTreeToggle<CR>
+map <C-t> :NERDTreeToggle<CR>
 
 " Case insensitive search, except for search with capital letters
 set ignorecase
@@ -73,7 +73,6 @@ set clipboard=unnamedplus
 inoremap <C-S-v> <ESC>"+pa
 vnoremap <C-S-c> "+y
 vnoremap <C-S-d> "+d
-
 
 " Enable folding
 set foldmethod=indent
