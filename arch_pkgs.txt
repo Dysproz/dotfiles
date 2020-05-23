@@ -60,4 +60,7 @@ gimp
 inkscape
 vlc
 bash-completion
-
+ttf-linux-libertine
+arandr
+mpd
+xclip

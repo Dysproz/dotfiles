@@ -5,6 +5,8 @@ xcompmgr &
 feh --bg-scale /home/szymon/.wallpaper.jpg
 # Set Polish keys
 setxkbmap pl
+# Add ~/.local/bin to PATH
+export PATH=$PATH:~/.local/bin
 
 # Set status
 while /bin/true; do

@@ -8,3 +8,7 @@ batify
 mictray
 pa-applet-git
 alac-git
+ttf-symbola
+spotify
+siji-git
+keybase
