@@ -19,7 +19,7 @@ done &
 while /bin/true; do
 
     # Start trayer applets
-    declare -a Applets=("nm-applet" "blueman-applet" "pa-applet" "mictray" "dunst" "flameshot" "cbatticon --low-level 20 --critical-level 10")
+    declare -a Applets=("nm-applet" "blueman-applet" "pasystray" "mictray" "dunst" "flameshot" "cbatticon --low-level 20 --critical-level 10")
     for val in ${Applets[@]}; do
         if ! pgrep $val &> /dev/null; then
            $val &
