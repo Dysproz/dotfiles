@@ -64,3 +64,4 @@ ttf-linux-libertine
 arandr
 mpd
 xclip
+ranger
