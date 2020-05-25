@@ -18,6 +18,10 @@ Plug 'jnurmine/Zenburn'
 Plug 'scrooloose/nerdtree'
 " Plugin for super search
 Plug 'kien/ctrlp.vim'
+" Plugin for auto pairs
+Plug 'jiangmiao/auto-pairs'
+" Plugin for rendering YAML
+Plug 'stephpy/vim-yaml'
 call plug#end()
 
 " Configure YouCompleteMe
