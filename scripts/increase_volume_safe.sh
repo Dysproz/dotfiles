@@ -5,3 +5,5 @@ if [[ $volume_level -le 200 ]]
 then
     pactl set-sink-volume 1 +5%
 fi
+
+kill -44 $(pidof dwmblocks)

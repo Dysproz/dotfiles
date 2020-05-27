@@ -65,3 +65,4 @@ arandr
 mpd
 xclip
 ranger
+ttf-joypixels
