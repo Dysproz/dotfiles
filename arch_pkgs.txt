@@ -67,3 +67,4 @@ xclip
 ranger
 ttf-joypixels
 unrar
+gnome-calendar

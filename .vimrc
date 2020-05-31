@@ -22,6 +22,8 @@ Plug 'kien/ctrlp.vim'
 Plug 'jiangmiao/auto-pairs'
 " Plugin for rendering YAML
 Plug 'stephpy/vim-yaml'
+" Plugin to colorize color codes
+Plug 'etdev/vim-hexcolor'
 call plug#end()
 
 " Configure YouCompleteMe
