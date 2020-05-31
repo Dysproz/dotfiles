@@ -12,3 +12,4 @@ ttf-symbola
 spotify
 siji-git
 keybase
+libxft-bgra

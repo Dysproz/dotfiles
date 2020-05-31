@@ -12,7 +12,7 @@ xsetroot -name "Starting dwmblocks..."
 while /bin/true; do
 
     # Start trayer applets
-    declare -a Applets=("dwmblocks" "nm-applet" "blueman-applet" "dunst" "flameshot" )
+    declare -a Applets=("dwmblocks" "nm-applet" "blueman-applet" "cbatticon" "dunst" "flameshot" )
     for val in ${Applets[@]}; do
         if ! pgrep $val &> /dev/null; then
            $val &

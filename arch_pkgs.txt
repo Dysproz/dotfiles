@@ -66,3 +66,4 @@ mpd
 xclip
 ranger
 ttf-joypixels
+unrar
