@@ -68,3 +68,7 @@ ranger
 ttf-joypixels
 unrar
 gnome-calendar
+dnsutils
+deja-dup
+cifs-utils
+gvfs-smb
