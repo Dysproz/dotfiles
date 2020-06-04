@@ -24,6 +24,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'stephpy/vim-yaml'
 " Plugin to colorize color codes
 Plug 'etdev/vim-hexcolor'
+" Plugin for Go
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries'  }
 call plug#end()
 
 " Configure YouCompleteMe
