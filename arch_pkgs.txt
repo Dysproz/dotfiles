@@ -72,3 +72,4 @@ dnsutils
 deja-dup
 cifs-utils
 gvfs-smb
+alsa-firmware

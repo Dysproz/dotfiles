@@ -8,7 +8,7 @@ then
     pactl set-sink-mute 1 toggle
 fi
 
-if [[ $volume_level -le 200 ]]
+if [[ $volume_level -le 150 ]]
 then
     pactl set-sink-volume 1 +5%
 fi
