@@ -16,8 +16,6 @@ Plug 'nvie/vim-flake8'
 Plug 'jnurmine/Zenburn'
 " Plugin for file tree
 Plug 'scrooloose/nerdtree'
-" Plugin for super search
-Plug 'kien/ctrlp.vim'
 " Plugin for auto pairs
 Plug 'jiangmiao/auto-pairs'
 " Plugin for rendering YAML
@@ -77,10 +75,8 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Set system clipboard
-set clipboard=unnamedplus
-inoremap <C-S-v> <ESC>"+pa
-vnoremap <C-S-c> "+y
-vnoremap <C-S-d> "+d
+vnoremap <C-y> "+y
+map <C-p> "+p
 
 " Enable folding
 set foldmethod=indent
