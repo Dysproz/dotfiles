@@ -60,4 +60,16 @@ gimp
 inkscape
 vlc
 bash-completion
-
+ttf-linux-libertine
+arandr
+mpd
+xclip
+ranger
+ttf-joypixels
+unrar
+gnome-calendar
+dnsutils
+deja-dup
+cifs-utils
+gvfs-smb
+alsa-firmware

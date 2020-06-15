@@ -16,6 +16,14 @@ Plug 'nvie/vim-flake8'
 Plug 'jnurmine/Zenburn'
 " Plugin for file tree
 Plug 'scrooloose/nerdtree'
+" Plugin for auto pairs
+Plug 'jiangmiao/auto-pairs'
+" Plugin for rendering YAML
+Plug 'stephpy/vim-yaml'
+" Plugin to colorize color codes
+Plug 'etdev/vim-hexcolor'
+" Plugin for Go
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries'  }
 call plug#end()
 
 " Configure YouCompleteMe
@@ -67,7 +75,6 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Set system clipboard
-" set clipboard=unnamed
 vnoremap <C-y> "+y
 map <C-p> "+p
 

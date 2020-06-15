@@ -1,0 +1,13 @@
+#!/bin/bash
+
+light_level=$(xbacklight | cut -d '.' -f1)
+
+if [ "$light_level" -gt "80" ]; then
+    icon="🌤 "
+elif [ "$light_level" -lt "40" ]; then
+    icon="🌙 "
+else
+    icon="⛅ "
+fi
+
+printf "%s%s%%\\n" "$icon" "$light_level"
