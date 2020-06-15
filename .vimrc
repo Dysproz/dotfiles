@@ -16,8 +16,6 @@ Plug 'nvie/vim-flake8'
 Plug 'jnurmine/Zenburn'
 " Plugin for file tree
 Plug 'scrooloose/nerdtree'
-" Plugin for super search
-Plug 'kien/ctrlp.vim'
 call plug#end()
 
 " Configure YouCompleteMe
@@ -69,10 +67,9 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Set system clipboard
-set clipboard=unnamedplus
-inoremap <C-S-v> <ESC>"+pa
-vnoremap <C-S-c> "+y
-vnoremap <C-S-d> "+d
+" set clipboard=unnamed
+vnoremap <C-y> "+y
+map <C-p> "+p
 
 " Enable folding
 set foldmethod=indent
