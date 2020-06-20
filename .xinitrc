@@ -6,7 +6,7 @@ feh --bg-scale /home/szymon/.wallpaper.jpg
 # Set Polish keys
 setxkbmap pl
 # Add ~/.local/bin to PATH
-export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin:~/go/bin
 xsetroot -name "Starting dwmblocks..."
 
 while /bin/true; do

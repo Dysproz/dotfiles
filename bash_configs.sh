@@ -33,6 +33,10 @@ alias untar='tar -xvf'
 alias unbz2='tar -xvjf'
 alias ungz='tar -xvzf'
 
+if hash kubectl 2>/dev/null; then
+    source <(kubectl completion bash)
+fi
+
 eval $(ssh-agent -s) &> /dev/null
 ssh-add ~/.ssh/id_rsa 2> /dev/null
 
