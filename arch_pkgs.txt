@@ -75,3 +75,4 @@ cifs-utils
 gvfs-smb
 alsa-firmware
 docker
+shotwell
