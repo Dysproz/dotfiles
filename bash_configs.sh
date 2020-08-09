@@ -33,6 +33,8 @@ alias untar='tar -xvf'
 alias unbz2='tar -xvjf'
 alias ungz='tar -xvzf'
 
+source /usr/share/bash-completion/bash_completion 2> /dev/null
+
 if hash kubectl 2>/dev/null; then
     source <(kubectl completion bash)
 fi
