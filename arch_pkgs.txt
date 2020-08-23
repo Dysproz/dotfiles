@@ -76,3 +76,4 @@ gvfs-smb
 alsa-firmware
 docker
 shotwell
+arandr
