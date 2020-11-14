@@ -77,3 +77,4 @@ alsa-firmware
 docker
 shotwell
 arandr
+pamixer
