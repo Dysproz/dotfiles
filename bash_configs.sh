@@ -37,6 +37,7 @@ source /usr/share/bash-completion/bash_completion 2> /dev/null
 
 if hash kubectl 2>/dev/null; then
     source <(kubectl completion bash)
+    echo ""
 fi
 
 eval $(ssh-agent -s) &> /dev/null
