@@ -1,6 +1,7 @@
 # List of arch packages with description of what they do
 
 | Package | Description |
+|:--------| ----------: |
 | git | control version tool |
 | gvim | text editor with additional plugins |
 | vi | standard text editor |
