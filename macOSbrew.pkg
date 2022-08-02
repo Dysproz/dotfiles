@@ -1,3 +1,4 @@
 kubectl
 tmux
 reattach-to-user-namespace
+xclip
